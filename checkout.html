@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#f8f9ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary": "#865300", "primary-fixed-dim": "#ffb4a5", "on-surface": "#171c23", "on-background": "#171c23", "on-primary": "#ffffff", "on-secondary-fixed": "#2b1700", "error-container": "#ffdad6", "surface-container-high": "#e4e8f2", "outline-variant": "#e5bdb6", "surface-variant": "#dee2ec", "on-primary-fixed": "#3e0400", "secondary-container": "#fda218", "on-secondary-container": "#673e00", "on-secondary": "#ffffff", "outline": "#916f69", "surface-container-lowest": "#ffffff", "on-primary-fixed-variant": "#8e1300", "tertiary-container": "#00855b", "surface-container": "#eaeef8", "on-secondary-fixed-variant": "#663e00", "secondary-fixed": "#ffddb9", "on-surface-variant": "#5c403a", "background": "#f8f9ff", "tertiary-fixed-dim": "#4edea3", "surface-bright": "#f8f9ff", "on-tertiary-fixed": "#002113", "secondary-fixed-dim": "#ffb963", "surface": "#f8f9ff", "on-error": "#ffffff", "error": "#ba1a1a", "inverse-on-surface": "#edf1fb", "primary-fixed": "#ffdad3", "tertiary": "#006947", "on-tertiary-container": "#f5fff6", "primary": "#b51c00", "on-tertiary-fixed-variant": "#005236", "tertiary-fixed": "#6ffbbe", "inverse-primary": "#ffb4a5", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "surface-container-highest": "#dee2ec", "surface-tint": "#ba1c00", "inverse-surface": "#2c3138", "on-primary-container": "#fffbff", "surface-dim": "#d6dae4", "surface-container-low": "#f0f4fd", "primary-container": "#dc3214" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "2rem", "gutter": "1rem", "margin": "1rem", "margin-lg": "1.5rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem", "gutter-sm": "0.75rem", "space-xs": "0.25rem" }, fontFamily: { "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, fontSize: { "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "12px", "letterSpacing": "0.04em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-xl-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen">
+<!-- Antigravity Global Site Navigation Header (Zero Iframe, Direct Navigation) -->
+<header class="sticky top-0 z-[100] w-full bg-[#111827] text-white border-b border-slate-800 shadow-md">
+    <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
+        <a href="index.html" class="flex items-center gap-2 shrink-0 font-extrabold text-sm text-white hover:opacity-90 transition-opacity">
+            <span class="w-8 h-8 rounded-xl bg-[#b51c00] text-white flex items-center justify-center shadow-md">
+                <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+            </span>
+            <span class="tracking-tight text-base font-bold hidden sm:inline">Foodie</span>
+        </a>
+        <nav class="flex items-center gap-1 overflow-x-auto no-scrollbar py-1">
+            <a href="index.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">home</span><span>Home</span></a>
+<a href="restaurants.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">storefront</span><span>Explore</span></a>
+<a href="food-detail.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">lunch_dining</span><span>Dish Detail</span></a>
+<a href="cart.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">shopping_cart</span><span>Cart (2)</span></a>
+<a href="checkout.html" class="px-3 py-1.5 rounded-full text-xs font-bold bg-[#b51c00] text-white shadow-sm flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">credit_card</span><span>Checkout</span></a>
+<a href="order-tracking.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">moped</span><span>Live Tracking</span></a>
+<a href="profile.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">person</span><span>Profile</span></a>
+<a href="login.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">login</span><span>Login</span></a>
+<a href="splash.html" class="px-3 py-1.5 rounded-full text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-1 shrink-0"><span class="material-symbols-outlined text-[15px]">launch</span><span>Splash</span></a>
+        </nav>
+    </div>
+</header>
+<style>
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+/* Versatile & responsive layout across Mobile, Tablet, and Desktop */
+body > main {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.12);
+    min-height: calc(100vh - 56px);
+    position: relative;
+    background-color: #f8f9ff;
+}
+@media (min-width: 768px) {
+    body {
+        background-color: #f1f5f9 !important;
+    }
+    /* Align fixed bottom navigation and floating headers with the app container on desktop */
+    .fixed.bottom-0 {
+        max-width: 480px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        right: auto !important;
+    }
+    header.fixed {
+        max-width: 480px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        right: auto !important;
+    }
+}
+</style>
+<header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-6 px-gutter flex items-center justify-between text-on-surface text-[12px] font-semibold tracking-tight"><span class="select-none">9:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[16px]">battery_full</span></div></div><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Go Back" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high transition-colors text-on-surface" onclick="window.location.href='cart.html'"><span class="material-symbols-outlined text-[20px]">arrow_back</span></button><img alt="Foodie Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbUP3sDmdmQFNFVWmspy7_GPe-5SKjAk6Sdd9ZmBrtDct5mfWDINtfzbmqpWEiB0wUjQ5VI0Sx35iYKYgG5TIilL8wAAEzDN6WsY4PSOC5ZVGs2DB9VcpvCrRv7MDhIubepvJFKZoNqWNNro09EF342RLELR15ldpfRo1BQUeKcsiSpOxB7ARY6zRxaSCS2Gs24FeG6oVLxINlm5RTM6p4dsQKRqJ0cQ5dgudjAaI"/><h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Restaurant Detail</h1></div><div class="flex items-center gap-space-sm"><button aria-label="Share or Info" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high transition-colors text-on-surface"><span class="material-symbols-outlined text-[20px]">share</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7I4mn-QXiObI7cLRTAB_yzsBejL9QaNRo5e2oYPuRbQnTAkGQeXc_DbLoSaV3_kjWiuhM-7LLKVAeQYnNaj8Vb21mG2ygduMJfIA9CL9eWZNDvk6m01Yq8P8HaQ5BRNZN9xcnOa9AP_EtSwDo0PKIl2EGVdijP1kV8lm4LHJqSEcR-jOR2LcNwJ-5QPVlRQtDJbwrkvT2d0-W-CnQaxhMjDuhY4zH38tMyEWmjok"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-32">
+<!-- Interactive Status Bar Accent -->
+<div class="px-gutter pt-space-sm pb-space-xs">
+<div class="bg-surface-container rounded-xl p-space-sm flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Fastest Fulfillment</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">Arriving in <span class="text-primary font-headline-sm text-headline-sm">24 mins</span></p>
+</div>
+</div>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-bold">
+        Live Kitchen
+      </span>
+</div>
+</div>
+<div class="px-gutter flex flex-col gap-space-md mt-space-xs">
+<!-- 1. Delivery Address Card -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">home_pin</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Home</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">bolt</span> 25–30 mins
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5 line-clamp-2">452 Elm Street, Apt 4B, New York, NY 10001</p>
+</div>
+</div>
+<button class="shrink-0 px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors font-label-lg text-label-lg text-primary font-bold" type="button">
+          Edit
+        </button>
+</div>
+<!-- Quick Delivery Instruction Pills -->
+<div class="pt-space-xs">
+<p class="font-label-sm text-label-sm text-on-surface-variant mb-2 font-semibold">DELIVERY PREFERENCES</p>
+<div class="flex flex-wrap gap-2" id="instructionPills">
+<button class="instruction-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md transition-all" onclick="togglePill(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">doorbell</span> Leave at doorstep
+          </button>
+<button class="instruction-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md transition-all" onclick="togglePill(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">notifications_active</span> Ring bell
+          </button>
+<button class="instruction-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md transition-all" onclick="togglePill(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">phone_in_talk</span> Call on arrival
+          </button>
+</div>
+</div>
+</section>
+<!-- 2. Contactless & Safety Mode Switch -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm pr-2">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 flex items-center justify-center shrink-0 text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">sanitizer</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Contactless Delivery</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rider leaves your order safely outside</p>
+</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer shrink-0">
+<input checked="" class="sr-only peer" id="contactlessToggle" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-container-high peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-surface-container-lowest after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-tertiary"></div>
+</label>
+</section>
+<!-- 3. Payment Method Selector -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Payment Method</h3>
+<span class="font-label-sm text-label-sm text-tertiary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span> 256-Bit SSL
+        </span>
+</div>
+<!-- Payment Radio Options -->
+<div class="flex flex-col gap-2.5" id="paymentOptionList">
+<!-- Option 1: Google Pay / UPI (Selected by default) -->
+<div class="payment-card cursor-pointer p-3.5 rounded-xl bg-surface-container flex items-center justify-between transition-all" onclick="selectPayment(this, 'upi')">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">account_balance_wallet</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">UPI / Instant Pay</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">Fastest</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Google Pay, PhonePe, Paytm</p>
+</div>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full bg-primary flex items-center justify-center shadow-inner">
+<div class="w-2 h-2 rounded-full bg-on-primary"></div>
+</div>
+</div>
+<!-- Option 2: Saved Credit/Debit Card -->
+<div class="payment-card cursor-pointer p-3.5 rounded-xl bg-surface-container-low flex items-center justify-between transition-all" onclick="selectPayment(this, 'card')">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">credit_card</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Mastercard •••• 4242</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Expires 09/27</p>
+</div>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+<!-- Option 3: Apple Pay / Google Wallet -->
+<div class="payment-card cursor-pointer p-3.5 rounded-xl bg-surface-container-low flex items-center justify-between transition-all" onclick="selectPayment(this, 'wallet')">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-on-surface text-[22px]">contactless</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Digital Wallet</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Apple Pay &amp; Google Wallet</p>
+</div>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+<!-- Option 4: Cash on Delivery -->
+<div class="payment-card cursor-pointer p-3.5 rounded-xl bg-surface-container-low flex items-center justify-between transition-all" onclick="selectPayment(this, 'cod')">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">payments</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Cash on Delivery</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pay with cash or QR at doorstep</p>
+</div>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-high flex items-center justify-center">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Order Summary Card & Accordion -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<img class="w-11 h-11 rounded-lg object-cover shadow-sm" data-alt="A juicy gourmet burger with melted cheddar cheese, crisp lettuce, and fresh brioche buns on a rustic wooden board with warm ambient dining lighting and vibrant food styling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnIkRvoH_Q8fYR4eMzjuT64yP1kbMUGiwXqmUGAVZ4AoZA5TaZrMFFQiO2ge4GJlJxvV6B7x7sKpOQkDMEpqnIeGroPvmzpe3CiQVYbC2PKfkfi-WMvq3lgu73yxbPRPwGB1gNPMrladUc5af2xUnxz1GDMYcBNjbtoGurScunb632evLRutW5WvurXj-gywg8zx476T1qGnu-HAk51NBpdYyoClc3nOLLE8xAXKo"/>
+<div>
+<div class="flex items-center gap-1.5">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Gourmet Burger Co.</h4>
+<span class="material-symbols-outlined text-tertiary text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">3 items in cart</p>
+</div>
+</div>
+<button class="p-2 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors" onclick="toggleOrderBreakdown()" type="button">
+<span class="material-symbols-outlined text-on-surface text-[20px] transition-transform duration-200" id="accordionChevron">expand_more</span>
+</button>
+</div>
+<!-- Collapsible items preview -->
+<div class="hidden flex flex-col gap-2.5 pt-space-xs pb-space-xs" id="orderItemsDropdown">
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-sm bg-primary/20 flex items-center justify-center text-primary font-bold text-[10px]">1×</span>
+<span class="text-on-surface">Truffle Smash Burger (Double)</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$14.50</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-sm bg-primary/20 flex items-center justify-center text-primary font-bold text-[10px]">1×</span>
+<span class="text-on-surface">Golden Crisp Truffle Fries</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$5.20</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-sm bg-primary/20 flex items-center justify-center text-primary font-bold text-[10px]">1×</span>
+<span class="text-on-surface">Salted Caramel Shake</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$3.99</span>
+</div>
+</div>
+<!-- Bill Breakdown Details -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2">
+<div class="flex justify-between items-center text-body-sm font-body-sm text-on-surface-variant">
+<span>Item Total</span>
+<span class="text-on-surface font-medium">$38.69</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm text-tertiary">
+<span class="flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">local_offer</span> Gourmet Promo "TASTY15"
+          </span>
+<span class="font-bold">-$15.00</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm text-on-surface-variant">
+<span>Delivery Fee</span>
+<span class="text-tertiary font-bold uppercase tracking-wider text-[11px] bg-tertiary/10 px-2 py-0.5 rounded-full">FREE</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm text-on-surface-variant">
+<span>Taxes &amp; Restaurant Charges</span>
+<span class="text-on-surface font-medium">$0.00</span>
+</div>
+<div class="pt-2 mt-1 flex justify-between items-center">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface">To Pay</span>
+<p class="font-label-sm text-label-sm text-tertiary font-bold">You saved $15.00 on this order!</p>
+</div>
+<span class="font-headline-lg text-headline-lg text-primary font-extrabold">$23.69</span>
+</div>
+</div>
+<!-- Foodie Assurance Note -->
+<div class="flex items-center gap-2 pt-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Backed by Foodie Freshness Guarantee</p>
+</div>
+</section>
+<!-- Delightful Chef Note Card -->
+<div class="rounded-xl bg-secondary-fixed/50 p-space-sm flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shrink-0" data-alt="Warm modern illustration of a friendly chef preparing artisan gourmet dishes with fresh kitchen ingredients on clean surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe6qZce8jh1Uqrjh7xiL5GqJndO3Ni6YM5zycFF6b1Q8rlSKEIsgMAfQ9LSmgpKobbN6RquaeKiJxKxLNKNBGFhiXLVdPaFgq9quic4m7Ps0uX3ykWp1CgBtEOodH5cnRb8UBb-c3-NNiy4EBUYP89vH2wOpGltjMacCugFgovMTCVQRTY87YGJmIh6DYggq6C0noqSnS4OOo1K1gpjIg3N9uJFiqUuIHe4Cg-KWI"/>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-secondary-fixed font-bold">Chef's Promise</p>
+<p class="font-body-sm text-body-sm text-on-secondary-fixed-variant truncate">Prepared fresh immediately once payment confirms.</p>
+</div>
+</div>
+</div>
+<!-- 5. Fixed Bottom Action Bar -->
+<div class="fixed bottom-0 left-0 right-0 z-40 bg-surface-container-lowest/95 backdrop-blur-xl px-gutter pt-space-sm pb-safe shadow-[0_-8px_24px_rgba(0,0,0,0.08)]">
+<div class="max-w-md mx-auto flex items-center justify-between gap-space-md py-2">
+<!-- Price Preview -->
+<div class="flex flex-col shrink-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface font-extrabold tracking-tight">$23.69</span>
+<span class="font-label-md text-label-md text-on-surface-variant line-through">$38.69</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">check</span> Saved $15.00
+        </div>
+</div>
+<!-- Action Button -->
+<button class="flex-1 h-14 rounded-full bg-primary hover:bg-primary-container active:scale-[0.98] transition-all flex flex-col items-center justify-center shadow-lg shadow-primary/30 text-on-primary" onclick="triggerOrderSuccess()" type="button">
+<div class="flex items-center justify-center gap-2 font-headline-sm text-headline-sm font-bold">
+<span>Place Order</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm opacity-90 font-medium">
+<span class="material-symbols-outlined text-[12px]">lock</span>
+<span>100% Secure Checkout</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Interactive Order Celebration Feedback Overlay (Hidden by default) -->
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center p-gutter bg-on-surface/60 backdrop-blur-sm" id="orderSuccessModal">
+<div class="w-full max-w-sm bg-surface-container-lowest rounded-xl p-space-xl shadow-xl flex flex-col items-center text-center animate-bounce-short">
+<div class="w-16 h-16 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">task_alt</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Order Placed!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 mb-space-md">Gourmet Burger Co. is already sizzling your patties!</p>
+<div class="w-full bg-surface-container rounded-xl p-space-sm mb-space-md text-left flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Estimated Arrival</p>
+<p class="font-headline-sm text-headline-sm text-primary">10:05 AM (24m)</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[28px]">moped</span>
+</div>
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-headline-sm text-headline-sm font-bold shadow-md" onclick="window.location.href='order-tracking.html'" type="button">
+        Track Live Delivery
+      </button>
+</div>
+</div>
+</div>
+<script>
+  function togglePill(button) {
+    const isSelected = button.classList.contains('bg-primary');
+    if (isSelected) {
+      button.classList.remove('bg-primary', 'text-on-primary');
+      button.classList.add('bg-surface-container', 'text-on-surface');
+    } else {
+      button.classList.remove('bg-surface-container', 'text-on-surface');
+      button.classList.add('bg-primary', 'text-on-primary');
+    }
+  }
+
+  function selectPayment(selectedCard, type) {
+    const cards = document.querySelectorAll('.payment-card');
+    cards.forEach(card => {
+      card.classList.remove('bg-surface-container');
+      card.classList.add('bg-surface-container-low');
+      const indicator = card.querySelector('.radio-indicator');
+      const innerDot = indicator.querySelector('div');
+      indicator.classList.remove('bg-primary');
+      indicator.classList.add('bg-surface-container-high');
+      innerDot.classList.remove('bg-on-primary');
+      innerDot.classList.add('bg-transparent');
+    });
+
+    selectedCard.classList.remove('bg-surface-container-low');
+    selectedCard.classList.add('bg-surface-container');
+    const activeIndicator = selectedCard.querySelector('.radio-indicator');
+    const activeInnerDot = activeIndicator.querySelector('div');
+    activeIndicator.classList.remove('bg-surface-container-high');
+    activeIndicator.classList.add('bg-primary');
+    activeInnerDot.classList.remove('bg-transparent');
+    activeInnerDot.classList.add('bg-on-primary');
+  }
+
+  function toggleOrderBreakdown() {
+    const dropdown = document.getElementById('orderItemsDropdown');
+    const chevron = document.getElementById('accordionChevron');
+    if (dropdown.classList.contains('hidden')) {
+      dropdown.classList.remove('hidden');
+      chevron.classList.add('rotate-180');
+    } else {
+      dropdown.classList.add('hidden');
+      chevron.classList.remove('rotate-180');
+    }
+  }
+
+  function triggerOrderSuccess() {
+    const modal = document.getElementById('orderSuccessModal');
+    modal.classList.remove('hidden');
+  }
+
+  function closeOrderModal() {
+    const modal = document.getElementById('orderSuccessModal');
+    modal.classList.add('hidden');
+  }
+</script></main>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Wire bottom navigation bar links to their direct pages
+    document.querySelectorAll('[data-path="explore-feed"]').forEach(el => {
+        el.setAttribute("href", "index.html");
+    });
+    document.querySelectorAll('[data-path="search-and-browse"]').forEach(el => {
+        el.setAttribute("href", "restaurants.html");
+    });
+    document.querySelectorAll('[data-path="cart-summary"]').forEach(el => {
+        el.setAttribute("href", "cart.html");
+    });
+    document.querySelectorAll('[data-path="account-profile"]').forEach(el => {
+        el.setAttribute("href", "profile.html");
+    });
+});
+</script>
+</body></html>

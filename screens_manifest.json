@@ -1,0 +1,92 @@
+[
+  {
+    "id": "c2d5a0b52ea542479cf133612178b6b1",
+    "name": "projects/4308127497339803040/screens/c2d5a0b52ea542479cf133612178b6b1",
+    "title": "1. Splash Screen",
+    "htmlFile": "screens/c2d5a0b52ea542479cf133612178b6b1.html",
+    "screenshotFile": "screenshots/c2d5a0b52ea542479cf133612178b6b1.png",
+    "width": "780",
+    "height": "1768",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "f82feb95a093494bbe7b17627f194fe1",
+    "name": "projects/4308127497339803040/screens/f82feb95a093494bbe7b17627f194fe1",
+    "title": "3. Home Screen",
+    "htmlFile": "screens/f82feb95a093494bbe7b17627f194fe1.html",
+    "screenshotFile": "screenshots/f82feb95a093494bbe7b17627f194fe1.png",
+    "width": "780",
+    "height": "3464",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "ed6b8b841db74cd1b5fcb372dcd7d5a2",
+    "name": "projects/4308127497339803040/screens/ed6b8b841db74cd1b5fcb372dcd7d5a2",
+    "title": "6. Shopping Cart Screen",
+    "htmlFile": "screens/ed6b8b841db74cd1b5fcb372dcd7d5a2.html",
+    "screenshotFile": "screenshots/ed6b8b841db74cd1b5fcb372dcd7d5a2.png",
+    "width": "780",
+    "height": "3246",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "bcee21f01c7545498925487cfbbe29ef",
+    "name": "projects/4308127497339803040/screens/bcee21f01c7545498925487cfbbe29ef",
+    "title": "2. Login / Sign Up",
+    "htmlFile": "screens/bcee21f01c7545498925487cfbbe29ef.html",
+    "screenshotFile": "screenshots/bcee21f01c7545498925487cfbbe29ef.png",
+    "width": "780",
+    "height": "1872",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "d078a4cc1a814f94b87f2f3bd01fb82e",
+    "name": "projects/4308127497339803040/screens/d078a4cc1a814f94b87f2f3bd01fb82e",
+    "title": "8. Order Tracking Screen",
+    "htmlFile": "screens/d078a4cc1a814f94b87f2f3bd01fb82e.html",
+    "screenshotFile": "screenshots/d078a4cc1a814f94b87f2f3bd01fb82e.png",
+    "width": "780",
+    "height": "2730",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "2d73da933a80458da46a5239602b72de",
+    "name": "projects/4308127497339803040/screens/2d73da933a80458da46a5239602b72de",
+    "title": "5. Food Details Screen",
+    "htmlFile": "screens/2d73da933a80458da46a5239602b72de.html",
+    "screenshotFile": "screenshots/2d73da933a80458da46a5239602b72de.png",
+    "width": "780",
+    "height": "3282",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "ad0c7ae2055f4b87b769bbb1aae7005e",
+    "name": "projects/4308127497339803040/screens/ad0c7ae2055f4b87b769bbb1aae7005e",
+    "title": "9. User Profile Screen",
+    "htmlFile": "screens/ad0c7ae2055f4b87b769bbb1aae7005e.html",
+    "screenshotFile": "screenshots/ad0c7ae2055f4b87b769bbb1aae7005e.png",
+    "width": "780",
+    "height": "2574",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "c70efdba228240c882aa02151e6e63f8",
+    "name": "projects/4308127497339803040/screens/c70efdba228240c882aa02151e6e63f8",
+    "title": "7. Checkout Screen",
+    "htmlFile": "screens/c70efdba228240c882aa02151e6e63f8.html",
+    "screenshotFile": "screenshots/c70efdba228240c882aa02151e6e63f8.png",
+    "width": "780",
+    "height": "2590",
+    "deviceType": "MOBILE"
+  },
+  {
+    "id": "e43d18ba778449e58cb3d7f7c4bdac31",
+    "name": "projects/4308127497339803040/screens/e43d18ba778449e58cb3d7f7c4bdac31",
+    "title": "4. Restaurant Listing",
+    "htmlFile": "screens/e43d18ba778449e58cb3d7f7c4bdac31.html",
+    "screenshotFile": "screenshots/e43d18ba778449e58cb3d7f7c4bdac31.png",
+    "width": "780",
+    "height": "3280",
+    "deviceType": "MOBILE"
+  }
+]

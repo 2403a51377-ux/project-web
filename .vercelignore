@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vercel
+node_modules
+fetch_stitch_design.py
+build_website.py
+server.py
+screens/
+screenshots/
+screens_manifest.json
+*.log
+

@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+*.log
+.DS_Store
+Thumbs.db
+.env*
+fetch_stitch_design.py
+
+
